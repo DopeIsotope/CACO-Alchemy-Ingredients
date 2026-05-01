@@ -1,50 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CACO Potion Builder</title>
-    <!-- Point this to your CSS file -->
-    <link rel="stylesheet" href="css/stylesheet-main.css">
-</head>
-<body>
-    <div id="app">
+<div id="app">
+    <header>
         <h1>CACO Potion Builder</h1>
-        
-        <!-- Search and Filters: main.js needs these exact IDs -->
-        <input type="text" id="ingredient-search-field" placeholder="Search ingredients...">
-        <datalist id="ingredient-search-suggestions"></datalist>
+    </header>
 
-        <div class="filters">
-            <select id="ingredient-effects-dropdown-01"></select>
-            <select id="ingredient-effects-dropdown-02"></select>
-            <select id="ingredient-effects-dropdown-03"></select>
-            <select id="ingredient-effects-dropdown-04"></select>
-        </div>
+    <main>
+        <!-- This container handles the parchment background and layout -->
+        <section class="search-bar-container">
+            <div class="search-bar-flex">
+                <input type="text" id="ingredient-search-field" placeholder="Search by name...">
+                <datalist id="ingredient-search-suggestions"></datalist>
+            </div>
 
-        <div class="toggles">
-            <label><input type="checkbox" id="show-bruma-ingredients" checked> Bruma</label>
-            <label><input type="checkbox" id="show-hunterborn-ingredients" checked> Hunterborn</label>
-        </div>
+            <div class="filters-flex">
+                <select id="ingredient-effects-dropdown-01"></select>
+                <select id="ingredient-effects-dropdown-02"></select>
+                <select id="ingredient-effects-dropdown-03"></select>
+                <select id="ingredient-effects-dropdown-04"></select>
+            </div>
 
-        <!-- The area where ingredients will actually appear -->
-        <div id="ingredient-search-results"></div>
-        
-        <!-- Version Display: The script will crash if these aren't here -->
-        <div id="ussep-version"><a></a></div>
-        <div id="caco-version"><a></a></div>
-        <div id="bs-cyrodiil-version"><a></a></div>
-        <div id="hunterborn-version"><a></a></div>
+            <div class="toggles-flex">
+                <label><input type="checkbox" id="show-bruma-ingredients" checked> Beyond Sky. Bruma</label>
+                <label><input type="checkbox" id="show-hunterborn-ingredients" checked> Hunterborn</label>
+            </div>
+        </section>
 
+        <!-- The area where the potion result appears -->
+        <section id="brewing-preview"></section>
+
+        <!-- The grid of ingredients -->
+        <section id="ingredient-search-results"></section>
+    </main>
+
+    <footer>
         <div id="themes-list">
-            <button id="theme-default">Default</button>
+            <!-- Theme buttons go here -->
         </div>
-    </div>
-
-    <!-- Script Order Matters! -->
-    <script src="js/search-util.js"></script>
-    <script src="js/brewing-preview.js"></script>
-    <script src="js/compare-util.js"></script>
-    <script src="js/theme-bar.js"></script>
-    <script src="js/main.js"></script>
-</body>
-</html>
+        <div class="version-info">
+            <span id="ussep-version"><a></a></span>
+            <span id="caco-version"><a></a></span>
+            <span id="bs-cyrodiil-version"><a></a></span>
+            <span id="hunterborn-version"><a></a></span>
+        </div>
+    </footer>
+</div>
