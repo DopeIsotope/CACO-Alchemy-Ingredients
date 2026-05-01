@@ -9198,7 +9198,7 @@
         "magnitude": 2.0
       },
       {
-        "name": "Regenerate Health",
+        "name": "Health Regeneration",
         "magnitude": 6.0
       }
     ]
@@ -9484,7 +9484,7 @@
         "magnitude": 1.0
       },
       {
-        "name": "Regenerate Stamina",
+        "name": "Stamina Regeneration",
         "magnitude": 6.0
       }
     ]
