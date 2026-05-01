@@ -44,10 +44,11 @@ requestJsonData(ingredientDataPath, function(response) {
     document.getElementById("ingredient-effects-dropdown-02"),
     document.getElementById("ingredient-effects-dropdown-03"),
     document.getElementById("ingredient-effects-dropdown-04")];
-  let modsrcToggles = [
+let modsrcToggles = [
   document.getElementById("show-bruma-ingredients"),
   document.getElementById("show-hunterborn-ingredients"),
-  document.getElementById("show-rare-curios-ingredients")];
+  document.getElementById("show-rare-curios-ingredients")
+];
   let resultsParent = document.getElementById("ingredient-search-results");
   
   runIngredientDataBookkeeping(ingredientData, debugJson);
