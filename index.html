@@ -3,21 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>CACO Potion Builder</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Point this to your CSS file -->
+    <link rel="stylesheet" href="css/stylesheet-main.css">
 </head>
 <body>
     <div id="app">
         <h1>CACO Potion Builder</h1>
-        <!-- The JS will inject the tool here -->
+        
+        <!-- Search and Filters: main.js needs these exact IDs -->
+        <input type="text" id="ingredient-search-field" placeholder="Search ingredients...">
+        <datalist id="ingredient-search-suggestions"></datalist>
+
+        <div class="filters">
+            <select id="ingredient-effects-dropdown-01"></select>
+            <select id="ingredient-effects-dropdown-02"></select>
+            <select id="ingredient-effects-dropdown-03"></select>
+            <select id="ingredient-effects-dropdown-04"></select>
+        </div>
+
+        <div class="toggles">
+            <label><input type="checkbox" id="show-bruma-ingredients" checked> Bruma</label>
+            <label><input type="checkbox" id="show-hunterborn-ingredients" checked> Hunterborn</label>
+        </div>
+
+        <!-- The area where ingredients will actually appear -->
+        <div id="ingredient-search-results"></div>
+        
+        <!-- Version Display: The script will crash if these aren't here -->
+        <div id="ussep-version"><a></a></div>
+        <div id="caco-version"><a></a></div>
+        <div id="bs-cyrodiil-version"><a></a></div>
+        <div id="hunterborn-version"><a></a></div>
+
+        <div id="themes-list">
+            <button id="theme-default">Default</button>
+        </div>
     </div>
 
-    <!-- 1. Load utility scripts first so their functions exist for main.js -->
+    <!-- Script Order Matters! -->
     <script src="js/search-util.js"></script>
     <script src="js/brewing-preview.js"></script>
     <script src="js/compare-util.js"></script>
     <script src="js/theme-bar.js"></script>
-
-    <!-- 2. Load the main execution script LAST -->
     <script src="js/main.js"></script>
 </body>
 </html>
