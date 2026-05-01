@@ -968,6 +968,8 @@
         {
           "name": "Slow",
           "magnitude": 268.0
+
+          
         },
         {
           "name": "Damage Health",
@@ -9388,7 +9390,7 @@
         "magnitude": 4.0
       },
       {
-        "name": "Fortify One-handed",
+        "name": "Fortify One-Handed",
         "magnitude": 5.0
       },
       {
@@ -9810,7 +9812,7 @@
         "magnitude": 5.56
       },
       {
-        "name": "Fortify One-handed",
+        "name": "Fortify One-Handed",
         "magnitude": 2.8
       },
       {
