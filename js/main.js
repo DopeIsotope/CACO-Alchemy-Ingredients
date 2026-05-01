@@ -122,4 +122,6 @@ requestJsonData(ingredientDataPath, function(response) {
     `Beyond Skyrim: Cyrodiil v${ingredientData.bs_cyrodiil_version}`);
   document.getElementById("hunterborn-version").querySelector("a").textContent = (
     `Hunterborn v${ingredientData.hunterborn_version}`);
+  document.getElementById("rare-curios-version").querySelector("a").textContent = (
+    `Rare Curios v${ingredientData.rare_curios_version}`);
 });
