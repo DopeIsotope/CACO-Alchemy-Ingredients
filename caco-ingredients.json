@@ -9186,7 +9186,7 @@
     "modsrc": "rare_curios",
     "effects": [
       {
-        "name": "Weakness to Shock",
+        "name": "Shock Aversion",
         "magnitude": 4.0
       },
       {
@@ -9384,7 +9384,7 @@
     "modsrc": "rare_curios",
     "effects": [
       {
-        "name": "Weakness to Shock",
+        "name": "Shock Aversion",
         "magnitude": 4.0
       },
       {
@@ -9392,7 +9392,7 @@
         "magnitude": 5.0
       },
       {
-        "name": "Fortify Magicka",
+        "name": "Magicka Fortification",
         "magnitude": 5.0
       },
       {
@@ -9476,7 +9476,7 @@
         "magnitude": 3.0
       },
       {
-        "name": "Weakness to Poison",
+        "name": "Poison Aversion",
         "magnitude": 3.0
       },
       {
@@ -9792,7 +9792,7 @@
         "magnitude": 2.0
       },
       {
-        "name": "Weakness to Poison",
+        "name": "Poison Aversion",
         "magnitude": 3.0
       }
     ]
@@ -9890,11 +9890,11 @@
     "modsrc": "rare_curios",
     "effects": [
       {
-        "name": "Restore Magicka",
+        "name": "Magicka",
         "magnitude": 6.0
       },
       {
-        "name": "Fortify Magicka",
+        "name": "Magicka Fortification",
         "magnitude": 5.0
       },
       {
