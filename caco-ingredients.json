@@ -3178,28 +3178,6 @@
       ]
     },
     {
-      "name": "Ogre's Teeth",
-      "modsrc": "caco,cyrodiil",
-      "effects": [
-        {
-          "name": "Frenzy",
-          "magnitude": 3.92
-        },
-        {
-          "name": "Fortify Unarmed",
-          "magnitude": 0.69
-        },
-        {
-          "name": "Shock Aversion",
-          "magnitude": 5.79
-        },
-        {
-          "name": "Resist Poison",
-          "magnitude": 3.31
-        }
-      ]
-    },
-    {
       "name": "Daedra Venin",
       "modsrc": "caco",
       "effects": [
@@ -6984,28 +6962,6 @@
       ]
     },
     {
-      "name": "Bog Beacon",
-      "modsrc": "cyrodiil",
-      "effects": [
-        {
-          "name": "Magicka",
-          "magnitude": 10.18
-        },
-        {
-          "name": "Damage Health",
-          "magnitude": 11.1
-        },
-        {
-          "name": "Frenzy",
-          "magnitude": 1.6
-        },
-        {
-          "name": "Damage Health Regen",
-          "magnitude": 5.0
-        }
-      ]
-    },
-    {
       "name": "Blue Entoloma",
       "modsrc": "cyrodiil",
       "effects": [
@@ -9928,28 +9884,6 @@
       {
         "name": "Damage Stamina",
         "magnitude": 9.99
-      }
-    ]
-  },
-  {
-    "name": "Ogre Teeth",
-    "modsrc": "rare_curios",
-    "effects": [
-      {
-        "name": "Frenzy",
-        "magnitude": 3.92
-      },
-      {
-        "name": "Fortify Unarmed",
-        "magnitude": 0.69
-      },
-      {
-        "name": "Shock Aversion",
-        "magnitude": 5.79
-      },
-      {
-        "name": "Resist Poison",
-        "magnitude": 3.31
       }
     ]
   },
