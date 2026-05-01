@@ -5,7 +5,7 @@
 // SETTING debugJson: whether to print debug info on mismatched effects, etc.
 
 const ingredientDataPath = "caco-ingredients.json";
-const debugJson = false;
+const debugJson = true;
 
 //********************************************************************************************************************//
 
