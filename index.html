@@ -141,27 +141,41 @@
           <select name="ingredient-effects-dropdown-04" id="ingredient-effects-dropdown-04"></select>
         </div>
         
-        <div id="extra-mods-toggles">
-          <span class="extra-mods-wrapper">
-            <input type="checkbox"
-                   id="show-bruma-ingredients"
-                   data-modsrc="cyrodiil">
-            </input>
-            <label for="show-bruma-ingredients">
-              Show ingredients from <i>Beyond Skyrim: Bruma</i>
-            </label>
-          </span>
-          
-          <span class="extra-mods-wrapper">
-            <input type="checkbox"
-                   id="show-hunterborn-ingredients"
-                   data-modsrc="hunterborn">
-            </input>
-            <label for="show-hunterborn-ingredients">
-              Show ingredients from <i>Hunterborn</i>
-            </label>
-          </span>
-        </div>
+<div id="extra-mods-toggles">
+  <span class="extra-mods-wrapper">
+    <input type="checkbox"
+           id="show-bruma-ingredients"
+           data-modsrc="cyrodiil"
+           checked> <!-- Ensure it's checked by default if you want it on -->
+    </input>
+    <label for="show-bruma-ingredients">
+      Show ingredients from <i>Beyond Skyrim: Bruma</i>
+    </label>
+  </span>
+  
+  <span class="extra-mods-wrapper">
+    <input type="checkbox"
+           id="show-hunterborn-ingredients"
+           data-modsrc="hunterborn"
+           checked>
+    </input>
+    <label for="show-hunterborn-ingredients">
+      Show ingredients from <i>Hunterborn</i>
+    </label>
+  </span>
+
+  <!-- NEW: Rare Curios Toggle -->
+  <span class="extra-mods-wrapper">
+    <input type="checkbox"
+           id="show-rare-curios-ingredients"
+           data-modsrc="rare_curios"
+           checked>
+    </input>
+    <label for="show-rare-curios-ingredients">
+      Show ingredients from <i>Rare Curios</i>
+    </label>
+  </span>
+</div>
         
       </section>
       
